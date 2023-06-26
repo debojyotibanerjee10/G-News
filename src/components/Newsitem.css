@@ -1,0 +1,7 @@
+.newsitem{
+    border: 2px solid black;
+    margin: 0.3em 0;
+}
+.newsitem img{
+    background-position: center;
+}

@@ -1,0 +1,7 @@
+.news h2{
+    text-align: center;
+}
+.news .newsitems{
+    display: flex;
+    justify-content: space-around;
+}
