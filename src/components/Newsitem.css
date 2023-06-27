@@ -1,7 +1,10 @@
 .newsitem{
     border: 2px solid black;
     margin: 0.3em 0;
+    width: 29vw;
+    padding: 1em;
 }
 .newsitem img{
     background-position: center;
+    width: 100%;
 }
