@@ -1,6 +1,6 @@
 .navbar ul{
     display: flex;
-    background-color: antiquewhite;
+    background-color: rgb(71, 69, 67);
     height: 5vh;
     align-items: center;
 }
@@ -10,8 +10,17 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .navbar ul li a:hover{
     text-decoration: underline;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+@media (max-width:470px){
+    .navbar ul li a{
+        font-size: 62.5%;
+    }
 }

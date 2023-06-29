@@ -8,3 +8,11 @@
     background-position: center;
     width: 100%;
 }
+@media (max-width:750px){
+    .newsitem{
+        width: 100vw;
+    }
+}
+@media (max-width:470px){
+    
+}

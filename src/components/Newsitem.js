@@ -1,15 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./Newsitem.css"
-export default class Newsitem extends Component {
-  render() {
-    let {title,description,imageurl,newsurl}=this.props;
+export default function Newsitem(props){
     return (
       <div className='newsitem'>
-        <img src={imageurl} alt="img"/>
-         <h3>{title}</h3>
-         <p>{description}</p>
-         <a rel="noreferrer" href={newsurl} target="_blank"><button>Read More</button></a>
+        <img src={props.imageurl} alt="img"/>
+         <h3>{props.title}</h3>
+         <p>{props.description}</p>
+         <p>Date:{props.date}</p>
+         <a rel="noreferrer" href={props.newsurl} target="_blank"><button>Read More</button></a>
       </div>
     )
-  }
 }

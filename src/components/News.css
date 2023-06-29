@@ -6,7 +6,13 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.news .buttons{
-    display: flex;
-    justify-content: space-around;
+@media (max-width:750px){
+    .news .newsitems{
+        display: block;
+    }
+}
+@media (max-width:470px){
+    .news{
+        font-size: 62.5%;
+    }
 }
