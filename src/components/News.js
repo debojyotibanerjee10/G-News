@@ -3,6 +3,11 @@ import Newsitem from "./Newsitem"
 import "./News.css"
 import InfiniteScroll from 'react-infinite-scroll-component'
 export default function News(props){
+  function capitalize(word)
+  {
+    return word.charAt(0).toUpperCase()+word.slice(1);
+  }
+  document.title=`G-NEWS:${capitalize(props.category)}`;
   const[articles,setarticles]=useState([]);
   const[page,setpage]=useState(1);
   const[totalResults,settotalResults]=useState(0);
